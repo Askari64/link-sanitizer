@@ -16,7 +16,38 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Link Sanitizer",
   description: "Sanitize links from trackers",
+  keywords: ["link", "sanitizer", "clean URLs", "privacy", "Instagram link cleaner", "clean instagram links"],
+  authors: [{ name: "Askari", url: "https://askaririzvi.site/" }],
+  openGraph: {
+    title: "Link Sanitizer",
+    description: "Sanitize links from trackers like Instagram, Facebook shares, etc.",
+    url: "https://link-sanitizer-five.vercel.app/",
+    siteName: "Link Sanitizer",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Link Sanitizer",
+    description: "Sanitize links from trackers like Instagram, Facebook shares, etc.",
+    creator: "@yourhandle",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  themeColor: "#ffffff",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
+
 
 export default function RootLayout({
   children,
