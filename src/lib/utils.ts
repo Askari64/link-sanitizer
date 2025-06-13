@@ -4,3 +4,8 @@ import { twMerge } from "tailwind-merge"
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
+
+export function sanitizer(url:string) {
+  const sanitizedUrl = url.split('?')[0];
+  return sanitizedUrl;
+}
