@@ -33,6 +33,7 @@ export function ContainerTextFlip({
   const updateWidthForWord = () => {
     if (textRef.current) {
       // Add some padding to the text width (30px on each side)
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       const textWidth = textRef.current.scrollWidth + 30;
       setWidth(textWidth);
