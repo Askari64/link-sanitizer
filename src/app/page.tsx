@@ -35,7 +35,7 @@ export default function Home() {
           </span>{" "}
           by{" "}
           <a
-            href="https://askaririzvi.site/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className=" text-gray-500 hover:underline font-semibold mx-1"
